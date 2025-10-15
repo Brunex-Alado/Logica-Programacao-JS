@@ -17,30 +17,30 @@ O objetivo desse repositório é reforçar os conceitos em Lógica de Programaç
 
 - 01 Sorteador de Números: Informa a quantida de números a serem sorteados, e entre quais números pode ser feito esse sorteio. Conta também com função de reiniciar.
 <br>
-![site portfolio print](https://raw.githubusercontent.com/Brunex-Alado/01_Sorteador_de_Números.png)
-
-<br/>
+![projeto print](https://raw.githubusercontent.com/Brunex-Alado/Logica-Programacao-JS/refs/heads/main/img/01_Sorteador_de_Números.png)
+<br>
 
 - 02 AluGames: Simulador de website de aluguel de jogos de tabuleiro, com funcionalidade de aluguar e devolver o jogo selecionado. Conta também com contador de jogos alugados, além de Alert informando se de fato quer efetuar a devolução do jogo.
 <br>
-![site portfolio print](https://raw.githubusercontent.com/Brunex-Alado/portfolio-bruno-de-sousa-silva/02_AluGames.png)
+![projeto print](https://raw.githubusercontent.com/Brunex-Alado/Logica-Programacao-JS/refs/heads/main/img/02_AluGames.png)
 <br/>
 
 - 03 Carrinho de Compras: Formulário, onde lê o produto selecionado na combobox, depois extrai o nome, preço, quantidade, adiciona no carrinho e faz o cálculo de soma dos itens. Conta também com um botão de limpar e visualização do carrinho com quantidade de itens adicionados e seus respectivos valores.
 <br>
-![site portfolio print](https://raw.githubusercontent.com/Brunex-Alado/portfolio-bruno-de-sousa-silva/03_Carrinho_de_Compras.jpg)
+![projeto print](https://raw.githubusercontent.com/Brunex-Alado/Logica-Programacao-JS/refs/heads/main/img/03_Carrinho_de_Compras.png)
 <br/>
 
 - 04 Ingresso Online: Website para compras de ingresso Online. Formulário com opção de ingresso, campo para selecionar a quantidade e botão para confirmar a compra.
 <br>
-![site portfolio print](https://raw.githubusercontent.com/Brunex-Alado/portfolio-bruno-de-sousa-silva/04_Ingresso_Online.jpg)
+![projeto print](https://raw.githubusercontent.com/Brunex-Alado/Logica-Programacao-JS/refs/heads/main/img/04_Ingresso_Online.png)
 <br/>
 
 - 05 Amigo Secreto: Formulário que inclui uma lista com diversos nomes de amigos, e ao clicar em "Sortear", de forma aleatoria, gera uma lista de quem irá tirar quem. E ao clicar em "Reiniciar", tudo será redefinido e podemos começar um novo sorteio.
 <br>
-![site portfolio print](https://github.com/Brunex-Alado/portfolio-bruno-de-sousa-silva/05_Amigo_Secreto.jpg)
+![projeto print](https://raw.githubusercontent.com/Brunex-Alado/Logica-Programacao-JS/refs/heads/main/img/05_Amigo_Secreto.png)
 <br/>
 
 - 06 Simulador de NPS (Net Promoter Score): Botões numerados para definir níveis de satisfação de uma pessoa, afim de indicar o serviço para algum conhecido. É feito o cálculo mediante as avaliações e na parte inferior possui a soma de quantidade de notas por nível de satisfação.
 <br/>
-![site portfolio print](https://raw.githubusercontent.com/Brunex-Alado/portfolio-bruno-de-sousa-silva/06_Simulador_de_NPS_(Net_Promoter_Score).jpg)
+![projeto print](https://raw.githubusercontent.com/Brunex-Alado/Logica-Programacao-JS/refs/heads/main/img/06_Simulador_de_NPS_(Net_Promoter_Score).png)
+
