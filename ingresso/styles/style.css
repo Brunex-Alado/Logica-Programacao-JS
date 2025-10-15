@@ -1,0 +1,189 @@
+/* ======== LAYOUT PRINCIPAL ======== */
+body {
+  min-height: 100vh;
+  background: linear-gradient(180deg, #01080E 0%, #041832 50%, #01080E 100%);
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden; /* impede rolagem */
+}
+
+/* ======== CABEÇALHO ======== */
+header {
+  width: 100%;
+  max-width: 1200px;
+  margin-bottom: 1.5rem;
+  text-align: left;
+  padding-left: 2rem;
+}
+
+.logo {
+  width: 200px;
+}
+
+/* ======== CONTAINER PRINCIPAL ======== */
+.container {
+  position: relative;
+  width: 90%;
+  max-width: 1200px;
+  border: 2px solid #00F4BF;
+  border-radius: 10px;
+  padding: 3rem 4rem;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(8px);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.grafismo {
+  background: url('../assets/SVG/Grafismo verde.svg') no-repeat;
+  width: 31.9rem;
+  height: 2rem;
+  position: absolute;
+  top: -15px;
+  left: -5px;
+}
+
+/* ======== TÍTULOS ======== */
+.container h1 {
+  font-size: 4rem;
+  line-height: 1;
+}
+
+.container h1 span {
+  color: #1875E8;
+}
+
+.container h2 {
+  font-size: 2rem;
+}
+
+/* ======== FORMULÁRIO ======== */
+form {
+  display: flex;
+  align-items: flex-end;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.input-group select,
+.input-group input {
+  border: 1px solid #00F4BF;
+  border-radius: .5rem;
+  height: 3rem;
+  padding: .5rem 1rem;
+  font-size: 1.1rem;
+  background: none;
+  color: #fff;
+}
+
+.input-group select {
+  width: 18rem;
+  background-color: #fff;
+  color: #01080E;
+  appearance: none;
+  background-image: url('../assets/PNG/Arrow down.png');
+  background-repeat: no-repeat;
+  background-position: right 1rem center;
+}
+
+.input-group input {
+  width: 5rem;
+  text-align: center;
+}
+
+/* ======== BOTÃO ======== */
+button {
+  background-color: #1875E8;
+  color: #fff;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 1rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  box-shadow: 0 0 20px rgba(24, 117, 232, 0.5);
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #0f5cc2;
+}
+
+/* ======== MENSAGEM DE FEEDBACK ======== */
+.mensagem {
+  height: 2rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #00F4BF;
+  transition: opacity 0.3s ease;
+}
+
+/* ======== SEÇÃO DE DISPONIBILIDADE ======== */
+section {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.lista {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  font-size: 1.3rem;
+}
+
+.lista li {
+  display: flex;
+  justify-content: space-between;
+  width: 15rem;
+}
+
+.lista span {
+  color: #00F4BF;
+  font-style: italic;
+  font-size: 1.5rem;
+}
+
+/* ======== IMAGEM DO INGRESSO ======== */
+.imagem-ingresso {
+  width: 250px;
+}
+
+/* ======== RESPONSIVIDADE ======== */
+@media (max-width: 900px) {
+  .container {
+    padding: 2rem;
+  }
+
+  .container h1 {
+    font-size: 3rem;
+  }
+
+  .imagem-ingresso {
+    width: 180px;
+  }
+
+  form {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .input-group select {
+    width: 100%;
+  }
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8"> <!-- Permite acentuação e caracteres especiais -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Faz o site se ajustar a telas pequenas -->
+
+    <!-- Importação das fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Importa o CSS externo -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Sorteador de números</title>
+</head>
+
+<body>
+    <!-- Container principal que contém todo o conteúdo -->
+    <div class="container">
+        <div class="container__conteudo">
+
+            <!-- Área onde ficam os inputs e botões -->
+            <div class="container__informacoes">
+                <div class="container__texto">
+                    <h1>Sorteador<span class="container__texto-azul"> de números</span></h1>
+
+                    <!-- Input: quantidade de números a sortear -->
+                    <div class="container__campo">
+                        <label class="texto__paragrafo">Quantidade de números</label>
+                        <input class="container__input" id="quantidade" type="number" min="1">
+                    </div>
+
+                    <!-- Input: início do intervalo -->
+                    <div class="container__campo">
+                        <label class="texto__paragrafo">Do número</label>
+                        <input class="container__input" id="de" type="number" min="1">
+                    </div>
+
+                    <!-- Input: fim do intervalo -->
+                    <div class="container__campo">
+                        <label class="texto__paragrafo">Até o número</label>
+                        <input class="container__input" id="ate" type="number" min="1">
+                    </div>
+                </div>
+
+                <!-- Botões: sortear e reiniciar -->
+                <div class="chute container__botoes">
+                    <!-- O botão chama a função sortear() no clique -->
+                    <button onclick="sortear()" id="btn-sortear" class="container__botao">Sortear</button>
+
+                    <!-- Botão desabilitado até o primeiro sorteio -->
+                    <button onclick="reiniciar()" id="btn-reiniciar" class="container__botao-desabilitado">Reiniciar</button>
+                </div>
+
+                <!-- Resultado aparece aqui -->
+                <div class="container__texto" id="resultado">
+                    <label class="texto__paragrafo">Números sorteados: nenhum até agora</label>
+                </div>
+            </div>
+
+            <!-- Imagem decorativa -->
+            <img src="./img/ia.png" alt="Pessoa com capacete de astronauta" class="container__imagem-pessoa" />
+        </div>
+    </div>
+
+    <!-- Importa o script com defer (executa após o carregamento do HTML) -->
+    <script src="app.js" defer></script>
+</body>
+
+</html>

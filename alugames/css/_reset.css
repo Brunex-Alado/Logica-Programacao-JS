@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box; /* Faz com que padding e border não aumentem o tamanho total do elemento */
+}
+
+ul {
+    list-style: none; /* Remove os pontinhos da lista */
+    margin-block: 0;
+    padding-inline: 0;
+}
+
+a {
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: inherit; /* Mantém a cor herdada do texto */
+}
+
+img {
+    display: block; /* Remove pequenos espaços abaixo da imagem */
+}
